@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <template class="GtkPass" parent="GtkApplicationWindow">
+        <child>
+            <object class="GtkBox" id="gtkPassMain">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="can_focus">False</property>
+                <property name="orientation">vertical</property>
+                <property name="vexpand">True</property>
+                <property name="spacing">6</property>
+                <property name="margin">6</property>
+                <child>
+                    <object class="GtkPassSearch" id="gtkPassSearch" />
+                </child>
+                <child>
+                    <object class="GtkPassButtons" id="gtkPassButtons" />
+                </child>
+                <child>
+                    <object class="GtkLabel" id="gtkStatusBar">
+                        <property name="justify">left</property>
+                        <property name="halign">start</property>
+                        <property name="margin">0</property>
+                        <property name="visible">true</property>
+                    </object>
+                </child>
+            </object>
+        </child>
+    </template>
+</interface>

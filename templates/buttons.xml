@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <template class="GtkPassButtons" parent="GtkBox">
+        <property name="visible">True</property>
+        <property name="spacing">8</property>
+        <property name="can_focus">False</property>
+        <child>
+            <object class="GtkButton" id="gtkPassCopy">
+                <property name="label" translatable="yes">Copy</property>
+                <property name="visible">True</property>
+                <signal name="pressed" handler="on_button_click" />
+            </object>
+        </child>
+        <child>
+            <object class="GtkButton" id="gtkPassView">
+                <property name="label">View</property>
+                <property name="visible">True</property>
+                <signal name="pressed" handler="on_button_click" />
+            </object>
+        </child>
+        <child>
+            <object class="GtkButton" id="gtkPassExit">
+                <property name="label">Exit</property>
+                <property name="visible">True</property>
+                <signal name="pressed" handler="on_button_click" />
+            </object>
+        </child>
+    </template>
+</interface>

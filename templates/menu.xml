@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <menu id="gpass-menu">
+        <submenu>
+            <attribute name="label">File</attribute>
+            <item>
+                <attribute name="label">Exit</attribute>
+                <attribute name="action">app.quit</attribute>
+            </item>
+        </submenu>
+    </menu>
+</interface>
