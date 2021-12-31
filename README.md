@@ -1,6 +1,7 @@
 # Gtk-Pass: A simple GTK pass viewer
 
 ## Pre-requisites
+* Linux distribution (tested on Gentoo)
 * pass: 1.7.3+ https://www.passwordstore.org/
 * python: 3.9+
 * pygobject: 3.42.0+
