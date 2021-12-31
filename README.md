@@ -12,11 +12,7 @@
 ## How to run
 * make sure that you've met pre-requisites
 * execute `python gtkpass.py`
-* alternatively:
-  ```
-    chmod 755 gtkpass.py
-    ./gtkpass.py
-  ```
+* alternatively: ```./gtkpass.py```
 * enjoy
 
 ## Issues:
