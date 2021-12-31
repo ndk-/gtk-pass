@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import modules as gpm
 import sys
 
