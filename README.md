@@ -25,4 +25,4 @@
 * Add error handling as encounter issues.
 
 ## TLDR
-It's a personal project, that was written in a couple of days.
+It's a personal project that was written in a couple of days.
